@@ -81,7 +81,7 @@ export const Pricing: React.FC<PricingProps> = ({ highlightedPlan }) => {
 
               <div className="space-y-4">
                 <a 
-                  href="https://pay.lowify.com.br/checkout.php?product_id=O7cWg9"
+                  href="https://pay.lowify.com.br/go.php?offer=5u2icq8"
                   className="w-full flex items-center justify-center gap-2 py-5 bg-green-600 hover:bg-green-700 text-white rounded-2xl font-black text-lg shadow-xl shadow-green-200 transition-all hover:-translate-y-1 active:scale-95 group"
                 >
                   QUERO O PLANO COMPLETO COM DESCONTO
@@ -89,7 +89,7 @@ export const Pricing: React.FC<PricingProps> = ({ highlightedPlan }) => {
                 </a>
                 
                 <button 
-                  onClick={() => window.location.href = "https://pay.lowify.com.br/checkout?product_id=Z4gHBr"}
+                  onClick={() => window.location.href = "https://pay.lowify.com.br/checkout.php?product_id=6m0Wdv"}
                   className="w-full text-center text-stone-400 text-xs font-medium hover:text-stone-600 transition-colors underline"
                 >
                   Não, obrigado. Quero continuar com o plano simples de R$ 15,90
@@ -224,7 +224,7 @@ export const Pricing: React.FC<PricingProps> = ({ highlightedPlan }) => {
             </ul>
 
             <a 
-              href="https://pay.lowify.com.br/checkout?product_id=y91v7e"
+              href="https://pay.lowify.com.br/go.php?offer=pouw5iz"
               className="w-full block text-center py-4 mt-4 rounded-xl bg-gradient-to-r from-rose-500 to-rose-600 text-white font-bold shadow-lg shadow-rose-200 hover:shadow-xl hover:from-rose-600 hover:to-rose-700 transition-all transform hover:-translate-y-1"
             >
               Garantir Plano Completo (VIP)
